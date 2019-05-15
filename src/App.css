@@ -1,33 +1,60 @@
 .App {
+  /* text-align: center; */
+}
+
+.FormContainer{
+  width: 500px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.media{
+  padding: 5px;
+  margin: 10px;
+}
+
+.textarea{
+  width: 438px;
+  margin: 10px;
+}
+
+.kekiri{
+  margin: 10px;
+}
+
+.p{
+  font-size: 12px;
+}
+
+.mr-3{
+  width: 100px;
+}
+
+.nav{
+  background-color: gray;
+}
+
+.form-container{
+  width: 500px;
+  margin-left: 50px;
+}
+
+.meetup-card,
+.next-meetup,
+.media-members,
+.past-card{
+  background-color: lightgray;
+}
+
+.meetup-card{
+  padding: 16px;
+  margin-top: 70px;
+  border-radius: 0px;
+}
+
+.base-footer{
+  border-top: 2px solid black;
+  padding-top: 36px;
+  margin: 48px 32px;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
