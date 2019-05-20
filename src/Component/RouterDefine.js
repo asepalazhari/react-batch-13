@@ -18,7 +18,7 @@ export default class RouterDefine extends Component {
                         <Route path="/create-meetup" component={CreateMeetup} />
                         <Route path="/explore" component={Explore} />
                         <Route exact path="/login" component={Login} />
-                        <Route path="/login/:name" component={Login} />
+                        {/* <Route path="/login/:name" component={Login} /> */}
                         <Route component={NotFound} />
                     </Switch>
                 </Router>

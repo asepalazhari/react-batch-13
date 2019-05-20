@@ -58,3 +58,14 @@
   margin: 48px 32px;
   text-align: center;
 }
+
+.login-box{
+    padding: 20px;
+    margin: 7% auto;
+    width: 300px;
+}
+
+.explore{
+   padding-top: 80px; 
+   /* padding-left: 10px; */
+}

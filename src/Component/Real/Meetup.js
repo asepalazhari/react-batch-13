@@ -12,7 +12,7 @@ class Meetup extends Component {
         <div className="row no-gutters">
           <div className="col-md-2">
             <img
-              src="https://via.placeholder.com/180"
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png"
               className="card-img border"
               alt="placeholder-card"
             />
